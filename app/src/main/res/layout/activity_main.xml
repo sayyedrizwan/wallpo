@@ -6,11 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:src="@drawable/image"
+        android:src="@drawable/mountain"
         android:scaleType="centerCrop"
         android:id="@+id/imageview"/>
 
@@ -20,11 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SET AS WALLPAPER"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="SET AS WALLPAPER"/>
 
     <Button
         android:id="@+id/setlockscreen"
@@ -32,10 +27,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/setwallpaper"
         android:layout_centerHorizontal="true"
-        android:text="SET AS LOCKSCREEN WALLPAPER"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="SET AS LOCKSCREEN WALLPAPER" />
 
 </RelativeLayout>

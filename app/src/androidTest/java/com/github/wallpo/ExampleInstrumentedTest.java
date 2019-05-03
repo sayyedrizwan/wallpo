@@ -1,4 +1,4 @@
-package com.github.wallpoo;
+package com.github.wallpo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

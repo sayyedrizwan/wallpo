@@ -1,4 +1,4 @@
-package com.github.wallpoo;
+package com.github.wallpo;
 
 import org.junit.Test;
 
