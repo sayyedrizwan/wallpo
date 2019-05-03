@@ -12,4 +12,6 @@ A powerful image setter for Smart Phone MainScreen and LockScreen for Awndroid
 
 <h2>Download <h2>
    
-  <a href='' /> </a>
+   <a href="/images/myw3schoolsimage.jpg" download>
+  
+</a>
