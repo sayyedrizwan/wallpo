@@ -27,6 +27,32 @@ Only three steps to use the wallpo:
 	        implementation 'com.github.sayyedrizwan:wallpo:1.0.2'
       	}
 
+
+OR 
+
+ADD Through <b> MAVEN </b>
+
+ADD  Add repository to your build file
+
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+	
+	
+Add the maven dependency
+
+
+	<dependency>
+	    <groupId>com.github.sayyedrizwan</groupId>
+	    <artifactId>wallpo</artifactId>
+	    <version>1.0.2</version>
+	</dependency>
+
+
 3. Add Wallpo Code Where you want to run and set a image as mainscreen wallpaper
 
 
