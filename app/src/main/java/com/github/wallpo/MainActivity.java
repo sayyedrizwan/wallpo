@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Wallpo.setMainScreenWallpaper(MainActivity.this, imageView, "Wallpaper Set");
+                Wallpo.setMainScreenWallpaperfromUrl(mContext, "https://www.hdwallpapers.in/download/spider_man_far_from_home_5k_3-1600x900.jpg", "Wallpaper Set");
 
             }
         });

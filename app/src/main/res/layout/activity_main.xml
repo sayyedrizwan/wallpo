@@ -6,27 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:src="@drawable/mountain"
-        android:scaleType="centerCrop"
-        android:id="@+id/imageview"/>
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/setwallpaper"
-        android:layout_below="@id/imageview"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SET AS WALLPAPER"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/setlockscreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/setwallpaper"
-        android:layout_centerHorizontal="true"
-        android:text="SET AS LOCKSCREEN WALLPAPER" />
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mountain" />
+
+            <Button
+                android:id="@+id/setwallpaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageview"
+                android:layout_centerHorizontal="true"
+                android:text="SET AS WALLPAPER" />
+
+            <Button
+                android:id="@+id/setlockscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/setwallpaper"
+                android:layout_centerHorizontal="true"
+                android:text="SET AS LOCKSCREEN WALLPAPER" />
+
+        </RelativeLayout>
+    </ScrollView>
+
 
 </RelativeLayout>
