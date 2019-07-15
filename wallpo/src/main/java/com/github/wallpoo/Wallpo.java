@@ -59,7 +59,6 @@ public class Wallpo {
 
     public static WallpaperManager setLockScreenWallpaper(Activity activity, ImageView imageView, String message) {
 
-        Bitmap bitmap;
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             WallpaperManager manager = WallpaperManager.getInstance(activity);
