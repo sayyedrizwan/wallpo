@@ -33,11 +33,18 @@ public class Wallpo {
         Bitmap bitmap;
 
         WallpaperManager manager = WallpaperManager.getInstance(context);
-
-
         try {
             bitmap = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
-            manager.setBitmap(bitmap);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                manager.setBitmap(bitmap, null, true, WallpaperManager.FLAG_SYSTEM);
+            }else {
+
+                manager.setBitmap(bitmap);
+            }
+
+            if(message.isEmpty()){
+                message = "Wallpaper set successfully";
+            }
             Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
         } catch (NullPointerException e) {
             e.printStackTrace();
@@ -59,6 +66,10 @@ public class Wallpo {
 
             try {
                 manager.setBitmap(((BitmapDrawable) imageView.getDrawable()).getBitmap(), null, true, WallpaperManager.FLAG_LOCK);
+
+                if (message.isEmpty()){
+                    message = "Lock Screen Wallpaper set successfully";
+                }
 
                 Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
 
