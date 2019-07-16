@@ -99,4 +99,4 @@ License
 	
 	
 	
-<font size="6"> Founder Rizwan Sayyed </font>
+<p> <font size="6"> Founder Rizwan Sayyed </font> </p>
