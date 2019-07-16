@@ -24,7 +24,7 @@ Only three steps to use the wallpo:
 2. Add the dependency
       
           dependencies {
-	        implementation 'com.github.sayyedrizwan:wallpo:1.0.2'
+	        implementation 'com.github.sayyedrizwan:wallpo:1.4.0'
       	}
 
 
@@ -49,7 +49,7 @@ Add the maven dependency
 	<dependency>
 	    <groupId>com.github.sayyedrizwan</groupId>
 	    <artifactId>wallpo</artifactId>
-	    <version>1.0.2</version>
+	    <version>1.4.0</version>
 	</dependency>
 
 
