@@ -1,5 +1,7 @@
 package com.github.wallpoo;
-
+/*
+Copyright 2020 Rizwan Sayyed(sayyed rizwan)
+ */
 import android.app.Activity;
 import android.app.WallpaperManager;
 import android.content.Context;
