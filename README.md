@@ -57,7 +57,8 @@ Add the maven dependency
 
 
 
-		Wallpo.setMainScreenWallpaper(MainActivity.this, imageView, "Wallpaper Set"); //imageview is the view where image is loading
+		Wallpo.setMainScreenWallpaper(MainActivity.this, imageView, "Wallpaper Set");
+				//imageview is the view where image is loading
 		
 
 OR
@@ -65,7 +66,8 @@ OR
 
 3. Add Wallpo Code Where you want to run and set a image as lockscreen wallpaper
 
-		Wallpo.setLockScreenWallpaper(MainActivity.this, imageView, "LockWallpaper Set"); //imageview is the view where image is loading
+		Wallpo.setLockScreenWallpaper(MainActivity.this, imageView, "LockWallpaper Set"); 
+						//imageview is the view where image is loading
 		
 		
 		
@@ -97,4 +99,4 @@ License
 	
 	
 	
-Founder Rizwan Sayyed
+<p> <font size="6"> Founder Rizwan Sayyed </font> </p>
